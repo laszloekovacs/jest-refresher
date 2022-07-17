@@ -26,4 +26,5 @@ it("returns an updated copy of the input", () => {
 
     expect(result).toBeInstanceOf(Array)
     expect(result).toContainEqual({title: "Tweet about it", done: false})
+    expect(result).toHaveLength(3)
 })
