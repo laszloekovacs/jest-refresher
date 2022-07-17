@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 import App from './App'
 
 
-it('renders our the word app', ()=> {
+it('renders out the word app', ()=> {
     const component = renderer.create(<App></App>)
 
     let tree = component.toJSON();
@@ -11,4 +11,3 @@ it('renders our the word app', ()=> {
     expect(tree).toMatchSnapshot()
 
 })
-

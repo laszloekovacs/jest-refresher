@@ -2,6 +2,12 @@
 
 exports[`renders our the word app 1`] = `
 <div>
-  Notinhg
+  App
+</div>
+`;
+
+exports[`renders out the word app 1`] = `
+<div>
+  App
 </div>
 `;
